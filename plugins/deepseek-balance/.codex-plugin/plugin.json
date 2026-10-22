@@ -1,0 +1,41 @@
+{
+  "name": "deepseek-balance",
+  "version": "0.1.1",
+  "description": "Check the live DeepSeek API account balance and open the top-up page.",
+  "author": {
+    "name": "Local"
+  },
+  "license": "MIT",
+  "keywords": [
+    "deepseek",
+    "balance",
+    "billing",
+    "top-up",
+    "余额",
+    "充值"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "DeepSeek 余额",
+    "shortDescription": "实时查询余额并打开充值页",
+    "longDescription": "在新对话中一键查询 DeepSeek API 的实时账户余额、赠金余额和充值余额，并返回官方充值入口。密钥只从本机 Codex 配置读取，不写入插件。",
+    "developerName": "Local",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Network"
+    ],
+    "websiteURL": "https://platform.deepseek.com/",
+    "privacyPolicyURL": "https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html",
+    "termsOfServiceURL": "https://cdn.deepseek.com/policies/en-US/deepseek-terms-of-use.html",
+    "defaultPrompt": [
+      "查看我的 DeepSeek 余额",
+      "DeepSeek 还有多少钱，帮我打开充值入口"
+    ],
+    "brandColor": "#4D6BFE",
+    "composerIcon": "./assets/composer-icon.png",
+    "logo": "./assets/logo.png",
+    "screenshots": []
+  }
+}

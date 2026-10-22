@@ -1,0 +1,7 @@
+node_modules/
+*.lnk
+.env
+auth.json
+deepseek-balance.json
+.DS_Store
+Thumbs.db
